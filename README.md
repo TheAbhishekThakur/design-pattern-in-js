@@ -19,6 +19,7 @@ These patterns focus on object creation mechanisms, trying to create objects in 
  - Prototype Pattern
 
 ## Structural Design Patterns
+Structural patterns deal with object composition, forming relationships between objects to create larger, more complex structures. They help to define how objects and classes can be combined to form new structures and provide new functionality.
 
  - Adapter Pattern
  - Decorator Pattern
@@ -26,6 +27,7 @@ These patterns focus on object creation mechanisms, trying to create objects in 
  - Proxy Pattern
 
 ## Behavioral Design Patterns
+Behavioral patterns are concerned with communication between objects, defining how they interact and distribute responsibilities. These patterns help you design systems where objects collaborate in a more flexible and efficient manner.
 
  - Chain of Responsibility Pattern
  - Iterator Pattern
