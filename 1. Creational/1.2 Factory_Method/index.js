@@ -1,4 +1,4 @@
-// Using function
+// Implementation Using function
 function Developer(name) {
     this.name = name;
     this.type = "Developer"
@@ -33,3 +33,41 @@ employees.push(employeeFactory.create("Rahul", 2));
 employees.forEach((emp) => {
     console.log(emp);
 });
+
+
+// Implementation using Class
+class Car {
+    display() {
+        console.log("Car Class");
+    }
+}
+
+class Bike {
+    display() {
+        console.log("Bike Class");
+    }
+}
+
+class ProductFactory {
+    getProduct = (value) => {
+        switch (value) {
+            case 1: {
+                const car = new Car();
+                car.display();
+                break;
+            }
+            case 2: {
+                const bike = new Bike();
+                bike.display();
+                break;
+            }
+            default:
+                return null;
+        }
+    }
+}
+
+const factory = new ProductFactory();
+
+factory.getProduct(1);
+factory.getProduct(2);
