@@ -10,6 +10,7 @@ Design patterns are classified into three main categories:
 
 
 ## Creational Design Patterns
+These patterns focus on object creation mechanisms, trying to create objects in a manner suitable for the situation. They abstract the instantiation process, making it more flexible and independent of the system.
 
  - Singleton Pattern
  - Factory Method Pattern
