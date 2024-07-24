@@ -1,9 +1,9 @@
 # Factory method pattern
 
-The Factory method pattern provides an interface for creating objects that can be modified after creation. The cool thing about this is that the logic for creating our objects is centralized in a single place, simplifying and better organizing our code.
+The Factory Pattern is a creational pattern that provides an interface for creating objects but allows subclasses to alter the type of objects that will be created. It encapsulates the object creation process, making it more flexible and decoupled from the client code.
 
 
-Using function
+## Implementation Using function
 
     function Developer(name) {
         this.name = name;
